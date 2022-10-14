@@ -230,7 +230,11 @@
 
 .feynman__title {
   /* марж по приколу, потому что нельзя сразу всё #5*/
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  /* бесконечность не предел! */
   padding-top: 100px;
   width: 648px;
   margin: auto;
@@ -361,9 +365,13 @@
   font-size: 18px;
   font-weight: 600;
 }
-
 .footer__column-links {
-  margin: 0;
+  /* марж по приколу, потому что нельзя сразу всё #8 */
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  /* бесконечность не предел! */
   padding: 0;
   margin: 20px auto 16px 0;
   list-style-type: none;
