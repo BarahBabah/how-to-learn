@@ -48,7 +48,7 @@
 
 .header__link {
   text-decoration: none;
-  color: #2f80ed
+  color: #2f80ed;
 }
 
 .header__title {
@@ -230,7 +230,6 @@
 
 .feynman__title {
   /* марж по приколу, потому что нельзя сразу всё #5*/
-
   margin: 0;
   padding-top: 100px;
   width: 648px;
