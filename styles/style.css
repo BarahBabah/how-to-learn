@@ -116,7 +116,7 @@
 
 .two-columns__brief {
   /* Исправил [1] */
-  margin:0;
+  margin: 0;
   width: 175px;
   /* цвет */
   color: #2f80ed;
@@ -228,7 +228,7 @@
   position: relative;
   text-align: center;
   /* исправил [4] */
-  background-color:#f2f2f2;
+  background-color: #f2f2f2;
   z-index: 0;
 }
 
@@ -385,6 +385,7 @@
   font-size: 18px;
   font-weight: 600;
 }
+
 .footer__column-links {
   /* марж по приколу, потому что нельзя сразу всё #8 */
   margin-top: 0;
