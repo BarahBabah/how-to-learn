@@ -115,6 +115,8 @@
 }
 
 .two-columns__brief {
+  /* Исправил [1] */
+  margin:0;
   width: 175px;
   /* цвет */
   color: #2f80ed;
@@ -134,7 +136,7 @@
 
 }
 
-.span-accent {
+.two-columns__span-accent {
   /*ниже шрифты */
   line-height: 34px;
   font-size: 24px;
@@ -142,18 +144,19 @@
 
 }
 
-.paragraph {
+.two-columns__paragraph {
   /* марж по приколу, потому что нельзя сразу всё #2*/
   margin: 0;
 }
 
-.paragraph:not(:last-child) {
+.two-columns__paragraph:not(:last-child) {
   margin-bottom: 30px;
 }
 
 /* digits */
 .digits {
-  margin: 100px auto 20px auto;
+  /* исправил [2] */
+  margin: 100px auto 100px auto;
 }
 
 .section-title {
@@ -180,6 +183,9 @@
 
 /* table */
 .table {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   justify-content: space-between;
   display: flex;
   width: 1100px;
@@ -189,6 +195,8 @@
 
 /* карточка и её наполнение */
 .table__cell {
+  margin: 0;
+  padding: 0;
   margin-top: 60px;
   width: 250px;
 }
@@ -196,6 +204,7 @@
 .table__heading {
   /* марж по приколу, потому что нельзя сразу всё #3*/
   margin: 0;
+  padding: 0;
   /* шрифты */
   line-height: 1.15;
   font-size: 24px;
@@ -214,9 +223,13 @@
 }
 
 .feynman {
-  height: 890px;
+  /* исправил [3] */
+  min-height: 890px;
   position: relative;
   text-align: center;
+  /* исправил [4] */
+  background-color:#f2f2f2;
+  z-index: 0;
 }
 
 .feynman__image {
@@ -315,6 +328,8 @@
 
 /* footer */
 .footer {
+  /* исправил [5] */
+  box-sizing: border-box;
   display: flex;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -324,7 +339,8 @@
 }
 
 .logo_place_footer {
-  background-image: url(/images/logo_place_footer.svg);
+  /* исправил [6] */
+  background-image: url(../images/logo_place_footer.svg);
 
 }
 
@@ -340,6 +356,10 @@
 }
 
 .footer__author {
+  /* Исправил [7] */
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 18px;
   color: white;
   /* шрифты */
   line-height: 25px;
@@ -387,7 +407,7 @@
   font-weight: normal;
 }
 
-.footer__column-social-icon {
+.footer__social-icon {
   height: 16px;
   width: 16px;
   margin-right: 10px;
