@@ -1,0 +1,11 @@
+.footer__author {
+  /* Исправил [7] */
+  margin: 0;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: white;
+  /* шрифты */
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}

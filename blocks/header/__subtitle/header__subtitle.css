@@ -1,0 +1,13 @@
+.header__subtitle {
+  /* марж по приколу, потому что нельзя сразу всё #1*/
+  margin: 0;
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  z-index: 2;
+  /* ниже шрифт */
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}

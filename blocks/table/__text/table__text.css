@@ -1,0 +1,10 @@
+.table__text {
+  /* марж по приколу, потому что нельзя сразу всё #4*/
+
+  margin: 0;
+  padding-top: 20px;
+  /* шрифты */
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}

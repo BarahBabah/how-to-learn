@@ -1,0 +1,11 @@
+.two-columns__brief {
+  /* Исправил [1] */
+  margin: 0;
+  width: 175px;
+  /* цвет */
+  color: #2f80ed;
+  /*ниже шрифты */
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}

@@ -1,0 +1,8 @@
+.two-columns__paragraph {
+  /* марж по приколу, потому что нельзя сразу всё #2*/
+  margin: 0;
+}
+
+.two-columns__paragraph:not(:last-child) {
+  margin-bottom: 30px;
+}

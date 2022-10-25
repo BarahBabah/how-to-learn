@@ -1,0 +1,9 @@
+.feynman {
+  /* исправил [3] */
+  min-height: 890px;
+  position: relative;
+  text-align: center;
+  /* исправил [4] */
+  background-color: #f2f2f2;
+  z-index: 0;
+}

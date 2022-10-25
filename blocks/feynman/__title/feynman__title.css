@@ -1,0 +1,15 @@
+.feynman__title {
+  /* марж по приколу, потому что нельзя сразу всё #5*/
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  /* бесконечность не предел! */
+  padding-top: 100px;
+  width: 648px;
+  margin: auto;
+  /* шрифты */
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
